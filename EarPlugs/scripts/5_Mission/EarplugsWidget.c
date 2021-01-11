@@ -63,7 +63,7 @@ class EarPlugsWidget
 		//If the alpha is over 90% reduce it at a slower rate should make it apear more solid for longers
 		if (m_iconalpha > 0.90){
 			m_iconalpha = m_iconalpha - 0.0035;
-		} else { //else reduce it at its normal rate
+		} else { //else reduce it at its normal rate to have the fade affect
 			m_iconalpha = m_iconalpha - 0.022;
 		}
 		
@@ -79,6 +79,7 @@ class EarPlugsWidget
 	 		GetGame().GetCallQueue(CALL_CATEGORY_GUI).Remove(this.HideIcon);
 		}
 		
+		//Setting the icons alpha
 		m_icon.SetAlpha(m_iconalpha);
 	}
 	
