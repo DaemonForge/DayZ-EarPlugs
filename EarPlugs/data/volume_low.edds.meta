@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{B32E6863183A2846}EarPlugs/data/volume_low.edds"
+ Author "desktop-tdpoqud"
+ ChangeDate -751457750
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "volume_low.tga"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

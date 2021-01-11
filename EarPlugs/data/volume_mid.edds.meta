@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{CA012E91CBD8465B}EarPlugs/data/volume_mid.edds"
+ Author "desktop-tdpoqud"
+ ChangeDate -717903318
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "volume_mid.tga"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

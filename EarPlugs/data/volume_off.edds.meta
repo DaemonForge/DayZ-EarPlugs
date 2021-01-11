@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{9C4B2D837D1840AB}EarPlugs/data/volume_off.edds"
+ Author "desktop-tdpoqud"
+ ChangeDate -684348886
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "volume_off.tga"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

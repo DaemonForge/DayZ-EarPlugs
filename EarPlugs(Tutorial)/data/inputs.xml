@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<modded_inputs>
+	<inputs>
+		<actions>
+			<!-- The display name for your input, note without using Community Framework you will need to make a localization file(stringtable.csv) and use the localization table for this -->
+			<input name="UAEarPlugsToggle" loc="Toggle EarPlugs"/>
+		</actions>
+	</inputs>
+	<preset>
+		<!-- The input name is the string used to refrence if they keybind has been pressed -->
+		<input name="UAEarPlugsToggle">
+			<!-- The btn(Button) name is the default keybind -->
+			<btn name="kN"/>
+		</input>
+	</preset>
+</modded_inputs>

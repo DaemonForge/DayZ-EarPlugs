@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{0EBCDDDCB2206E51}EarPlugs/data/volume_mute.edds"
+ Author "desktop-tdpoqud"
+ ChangeDate -2017154518
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "volume_mute.tga"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}
