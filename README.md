@@ -92,7 +92,7 @@ Create a file called `inputs.xml` in your `data` folder and with the below conte
 	</preset>
 </modded_inputs>
 ```
-*[Link to information about localization aka stringtables](/Misc/Stringtables)*
+*[Link to information about localization aka stringtables](https://dayzmodding.dev/Misc/Stringtables)*
 ***Note:** You must have made sure the path to where you put this file matches the `input` variable from your config.cpp* 
 
 ## Detecting when your key bind has been pressed
