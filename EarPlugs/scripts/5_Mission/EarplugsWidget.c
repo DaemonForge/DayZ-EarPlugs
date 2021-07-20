@@ -1,8 +1,8 @@
-//We are creating a new class named EarPlugsWidget
-class EarPlugsWidget
+//We are creating a new class named EarPlugsWidget and Exending Managed so there is memory clean up.
+class EarPlugsWidget extends Managed 
 {			
 	//We are declaring a ImageWidget variable so we can reference it when neasary
-	ref ImageWidget			m_icon;
+	autoptr ImageWidget			m_icon;
 	
 	//To make sure we can remove the call que if its active we will have a bool called call 
 	float						m_iconalpha = 0;

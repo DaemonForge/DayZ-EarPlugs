@@ -6,7 +6,7 @@ modded class MissionGameplay
 	int m_EarPlugsState = 0;
 
 	// Creating a reference variable for the earplugs widget and creating it when the game loads
-	ref EarPlugsWidget m_earplugswidget = new EarPlugsWidget;
+	autoptr EarPlugsWidget m_earplugswidget = new EarPlugsWidget;
 	
 	// You also need to use the override keyword to override the function, it needs to match exactly as it is from the base class you are overriding including the variable name
 	override void OnUpdate(float timeslice)
