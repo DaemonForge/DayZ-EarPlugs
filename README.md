@@ -7,7 +7,7 @@ How to make a simple EarPlugs mod using Enfusion for DayZ Standalone, this mod w
 > ## Prerequisites
 > 1.Basic Understanding of Object Oriented Programming
 > 
-> 2.Basic Understanding of the [Enforce Syntax](https://dayzmodding.dev/Scripting/Enforce-Syntax)
+> 2.Basic Understanding of the [Enforce Syntax](https://community.bistudio.com/wiki/DayZ:Enforce_Script_Syntax)
 > 
 > 3.[Have DayZ Tools Workbench with the P drive set up](https://dayzmodding.dev/Tutorials/Setting-Up-Workbench)
 > 
