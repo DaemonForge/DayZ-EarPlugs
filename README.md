@@ -278,7 +278,7 @@ Now that all the resources we need are created and added into the mod folder we 
 class EarPlugsWidget
 {
 	//We are declaring a ImageWidget variable so we can reference it when neasary
-	ref ImageWidget		m_icon;
+	autoptr ImageWidget		m_icon;
 
 	//When an object of the class is instantiate(created) then we need to create the widget
 	void EarPlugsWidget()
@@ -319,7 +319,7 @@ modded class MissionGameplay
 	bool m_IsEarPlugsEnabled = false;
 
 	// Creating a reference variable for the earplugs widget and creating it when the game loads
-	ref EarPlugsWidget m_earplugswidget = new EarPlugsWidget;
+	autoptr EarPlugsWidget m_earplugswidget = new EarPlugsWidget;
 	
 	override void OnUpdate(float timeslice)
 	{
@@ -358,7 +358,7 @@ So having the icon in the top right corner at all times will get in the way of a
 ```d
 class EarPlugsWidget
 {	
-	ref ImageWidget			m_icon;
+	autoptr ImageWidget			m_icon;
 	
 	//To make sure we can remove the call que if its active we will have a bool called call 
 	bool 								m_callqueueactive = false;
