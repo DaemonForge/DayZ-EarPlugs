@@ -2,7 +2,7 @@
 class EarPlugsWidget
 {			
 	//We are declaring a ImageWidget variable so we can reference it when neasary
-	ref ImageWidget			m_icon;
+	autoptr ImageWidget			m_icon;
 	
 	//To make sure we can remove the call que if its active we will have a bool called call 
 	bool 								m_callqueueactive = false;
