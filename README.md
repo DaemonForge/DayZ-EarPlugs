@@ -11,9 +11,9 @@ How to make a simple EarPlugs mod using Enfusion for DayZ Standalone, this mod w
 > 
 > 3.[Have DayZ Tools Workbench with the P drive set up](https://dayzmodding.dev/Tutorials/Setting-Up-Workbench)
 > 
-> 4.[Community Offline Mode Set Up for testing](https://dayzmodding.dev/Tutorials/Setting-Community-Offline-Mode)
+> 4.[Community Offline Mode Set Up for testing]()TODO
 > 
-> 5.Know [How to package](https://dayzmodding.dev/Tutorials/Packaging-A-Mod) and [Run a mod in Offline mode](https://dayzmodding.dev/Tutorials/Running-Mod-In-Offline-Mode)
+> 5.Know [How to package]()TODO and [Run a mod in Offline mode]()TODO
 
 # 1. Setting Up the Mod's Structure
 The first thing before creating any mod is setting up the structure of the mod this is essential for organization as well as for the compiler to read everything correctly.
